@@ -12,3 +12,8 @@
 - registered views in app>urls.py
 - registered urls in project>urls.py 
 - Properly configured URL mapping and other configs
+
+# Task-3
+
+- adding templetes
+- 
