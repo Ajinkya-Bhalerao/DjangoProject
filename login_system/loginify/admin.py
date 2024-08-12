@@ -1,6 +1,6 @@
 from django.contrib import admin
 from .models import UserDetails
-
+from .forms import SignUpForm
 
 # Register your models here.
 

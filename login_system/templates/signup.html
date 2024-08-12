@@ -7,13 +7,15 @@
     <link rel="stylesheet" href="" />
   </head>
   <body>
-    <h2>Enter User-Name</h2>
-    <input type="text" />
-    <h2>Enter Email</h2>
-    <input type="text" />
-    <h2>Enter password</h2>
-    <input type="password" />
-    <button>SignUp</button>
+    <form method="post">
+      {% csrf_token %}
+      {{form.as_p}}
+      <button type="submit">SignUp</button>
+      {% if error %}
+          <p style="color: red;">{{ error }}</p>
+      {% endif %}
+      
+  </form>
     <script src="" async defer></script>
   </body>
 </html>

@@ -22,3 +22,6 @@
 - Cerated serializers.py file to manage api objects.
 - setting up signup page and login page in views.py -> loginigy
 - added url to urls.py file in loginify app
+- craeted signup form in loginify app using Django form
+- implemented -> on successful signup redirecting to login page
+
