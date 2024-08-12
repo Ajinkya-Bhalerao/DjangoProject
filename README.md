@@ -16,4 +16,9 @@
 # Task-3
 
 - adding templetes
-- 
+- added UserDetails class in models.py and stagged the changes using cmd -> python manage.py makemigrations
+- migrate to DB using -> python manage.py migrate 
+- Created superUser using -> python manage.py createsuperuser.
+- Cerated serializers.py file to manage api objects.
+- setting up signup page and login page in views.py -> loginigy
+- added url to urls.py file in loginify app
